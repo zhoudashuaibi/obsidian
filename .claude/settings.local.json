@@ -4,7 +4,10 @@
       "WebFetch(domain:skills.sh)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:github.com)",
-      "Bash(obsidian read:*)"
+      "Bash(obsidian read:*)",
+      "Read(//home/zhou/.ssh/**)",
+      "Bash(ssh-keygen -t ed25519 -C \"1452720274@qq.com\" -f ~/.ssh/id_ed25519 -N \"\")",
+      "Bash(ssh -T git@github.com 2>&1)"
     ]
   }
 }
